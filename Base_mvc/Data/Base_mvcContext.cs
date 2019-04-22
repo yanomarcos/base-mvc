@@ -13,6 +13,7 @@ namespace Base_mvc.Models
         {
         }
 
-        public DbSet<Base_mvc.Models.Department> Department { get; set; }
+        public DbSet<Department> Department { get; set; }
+        public DbSet<Employer> Employer { get; set; }
     }
 }

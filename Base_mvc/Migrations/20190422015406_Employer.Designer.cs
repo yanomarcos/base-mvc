@@ -4,14 +4,16 @@ using Base_mvc.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Base_mvc.Migrations
 {
     [DbContext(typeof(Base_mvcContext))]
-    partial class Base_mvcContextModelSnapshot : ModelSnapshot
+    [Migration("20190422015406_Employer")]
+    partial class Employer
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
