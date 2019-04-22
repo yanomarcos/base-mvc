@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Base_mvc.Models;
+using Base_mvc.Models.ViewModels;
 
 namespace Base_mvc.Controllers
 {
